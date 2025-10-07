@@ -55,5 +55,9 @@ describe('Funcionalidade: Login', ( ) => {
         })
 });
 
+    it('Deve fazer login com sucesso - usando comandos customizados', () => {
+        cy.login('gabriel.ncimadon@gmail.com', '!Whisper329951')
+        cy.get('.woocommerce-MyAccount-content > :nth-child(2)').should('contain', 'Olá, gabriel.ncimadon')
+    });
 
 })
