@@ -1,0 +1,20 @@
+[
+    {
+        "nomeProduto": "Stark Fundamental Hoodie", 
+        "tamanho": "M",
+        "cor": "Black",
+        "quantidade": 5
+    },
+    { "nomeProduto": "Abominable Hoodie", 
+        "tamanho": "XS ",
+        "cor": "Blue",
+        "quantidade": 3
+        
+    },
+    { "nomeProduto": "Aether Gym Pant", 
+        "tamanho": "32 ",
+        "cor": "Green",
+        "quantidade": 1
+        
+    }
+]
